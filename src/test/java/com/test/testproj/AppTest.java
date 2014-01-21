@@ -7,13 +7,8 @@ public class AppTest extends TestCase {
 
 	public void testPrintHelloWorld() {
 
-		Assert.assertEquals(App.getHelloWorld(), "Hello World!");
+		Assert.assertEquals(App.getHelloWorld(), "Hellso World!");
 
 	}
 
-	public void testPrintHelloNetherlands() {
-
-		Assert.assertEquals(App.getHelloNetherlands(), "Hello Netherlands!");
-
-	}
 }
